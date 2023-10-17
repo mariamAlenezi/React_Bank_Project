@@ -6,7 +6,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import { checkToken, login, logout, register } from "./api/auth";
 import { Route, Routes } from "react-router-dom";
-import UserInfo from "./pages/UserInfo";
+import ArrayInfo from "./components/ArrayInfo";
 
 function App() {
   const [user, setUser] = useState(false);
@@ -23,7 +23,7 @@ function App() {
         <Route path="/" Component={Home} />
         <Route path="/login" Component={Login} />
         <Route path="/register" Component={Register} />
-        <Route path="/me" Component={UserInfo} />
+        <Route path="/me" Component={ArrayInfo} />
       </Routes>
     </div>
   );
