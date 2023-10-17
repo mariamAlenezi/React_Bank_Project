@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.home {
+  background-color: #d8dadc;
+  color: black;
+}
+
+.card {
+  width: 96vw;
+  height: 200px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
