@@ -6,7 +6,7 @@ import Login from "./pages/Login";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
       <Navbar />
       <Home />
