@@ -5,7 +5,7 @@ import NavbarDefault from "./pages/NavbarDefault";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
       <Home />
     </div>
